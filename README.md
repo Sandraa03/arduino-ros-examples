@@ -23,7 +23,7 @@ $ rosrun rosserial_arduino make_libraries.py .
 2. Execute the launch file: 
 ```shell 
 $ roslaunch arduino_ros_examples oscillator.launch
-
+```
 
 # Exercisi modificació frecuència del sinus
 En aquesta part, em modificat el codi del fitxer oscillator.ino i l'hem guardat amb el nom oscillator_receiving_frequency.ino.
@@ -33,14 +33,17 @@ Aquest codi, a diferència de l'altre el que fa és mostrar el sinus a una frequ
 2. Executar el fitxer launch: 
 ```shell 
 $ roslaunch arduino_ros_examples oscillator.launch
+```
 
 3. Al executar aquest codi sen's obre una finestra on es mostra el plot del sinus, si no ens mostra la variable per defecte, a la casella topic escribir:
 ```shell 
 $ /wave/data
+```
 
 4. En una nova terminal:
 ```shell 
 $ rostopic pub /freq std_msgs/UInt16 20
+```
 On 20 será el número que volguem pasar-li com a frecuència.
 
 Si observem ara el plot veiem com canvia la frecuència del sinus.
