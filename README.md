@@ -30,6 +30,7 @@ En aquesta part, em modificat el codi del fitxer oscillator.ino i l'hem guardat 
 Aquest codi, a diferència de l'altre el que fa és mostrar el sinus a una frequència 20 per defecte però llegir constantment per si rep un altre valor. Per executar aquest codi farem el següent:
 
 1- Compilar i carregar el codi al Arduino fent servir Arduino IDE
+
 2- Executar el fitxer launch: 
 ```shell 
 $ roslaunch arduino_ros_examples oscillator.launch
