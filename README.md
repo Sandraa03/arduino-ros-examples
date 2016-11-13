@@ -25,7 +25,7 @@ $ rosrun rosserial_arduino make_libraries.py .
 $ roslaunch arduino_ros_examples oscillator.launch
 ```
 
-# Exercisi modificació frecuència del sinus
+# Exercici modificació frecuència del sinus
 En aquesta part, em modificat el codi del fitxer oscillator.ino i l'hem guardat amb el nom oscillator_receiving_frequency.ino.
 Aquest codi, a diferència de l'altre el que fa és mostrar el sinus a una frequència 20 per defecte però llegir constantment per si rep un altre valor. Per executar aquest codi farem el següent:
 
